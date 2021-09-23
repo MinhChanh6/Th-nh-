@@ -1,0 +1,78 @@
+.home {
+    position: relative;
+    height: 630px;
+    background-color: $whiteSection;
+    &__content{
+        position: absolute;
+        top: 15%;
+        left: 18%;
+        z-index: 2;
+    }
+    &-container {
+        height: 100%;
+    }
+    &__title{
+        line-height: 1.3;
+        margin-bottom: 0.625rem;
+
+        > span {
+            color: $mainColor;
+        }
+    }
+
+    &__desc{
+        margin-bottom: 4.815rem;
+        font-size: 1.875rem;
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    &__sub{
+        position: absolute;
+        right: 5px;
+        bottom: 65px;
+        font-size: 20px;
+        font-weight: 200;
+        font-style: italic;
+        letter-spacing: 1.7px;
+    }
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.swiper-banner{
+    background: url(../Images/HomeBanner.png) no-repeat center center;
+    background-size: cover;
+    height: 50rem;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    opacity: 20%;
+    border: $blackColor solid 2px;
+    background-color: $mainColor;
+    margin-bottom: .7rem !important;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+    border: $mainColor solid 2px;
+    opacity: 1;
+}
+
+@include breakpoint-down(small){
+    .home__title{
+        font-size: 5.25rem;
+    }
+    .home__desc{
+        font-size: 1.2rem;
+    }
+    .home__sub{
+        font-size: 16px;
+    }
+    .swiper-pagination{
+        left: 5px !important;
+    }
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css link -->
+    <link rel="stylesheet" href="dist/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Font Face -->
+    <link rel="stylesheet" href="Fonts/stylesheet.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="App/Css/aos.css">
+    <title>Thành Ý - Dịch Vụ</title>
+</head>
+
+<body>
+    <!-- Scroll To Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+    <div class="overlay">
+        <div class="overlay-wrap">
+            <i class='bx bx-x overlay-close'></i>
+            <div class="overlay-search">
+                <i class='bx bx-search overlay-icon'></i>
+                <input type="text" name="search" id="overlay-search" placeholder="Tìm kiếm sản phẩm...">
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header" id="navbar">
+        <div class="header-top">
+            <div class="container flex flex-ai-c flex-jc-sb">
+                <div class="header-social" data-aos="fade-down">
+                    <a href="#" class="facebook-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#" class="ins-icon">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" class="zalo-icon">
+                        <img src="Images/ZaloIcon.png" alt="">
+                    </a>
+
+                </div>
+
+                <a href="#" class="header-logo" data-aos="fade-down">
+                    <img src="Images/Logo.png" alt="">
+                </a>
+
+                <div class="header-right" data-aos="fade-down">
+                    <div class="header-search">
+                        <i class='bx bx-search search-icon2 hide-for-tabletup'></i>
+                        <i class='bx bx-search search-icon hide-for-mobile'></i>
+                        <input type="text" name="search" id="search" placeholder="Tìm kiếm sản phẩm...">
+
+                        <a href="#" class="heart-icon">
+                            <i class='bx bx-heart'></i>
+                        </a>
+                        <a href="#" class="cart-icon">
+                            <i class='bx bx-cart-alt'></i>
+                        </a>
+
+                        <button class="nav-burger hide-for-tabletup" data-aos="fade-down">
+                            <span class="rectangle rectangle--top rectangle--small"></span>
+                            <span class="rectangle rectangle--middle"></span>
+                            <span class="rectangle rectangle--bottom rectangle--small"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-overlay"></div>
+        <nav class="nav">
+            <div class="menu-wrap container">
+                <ul class="menu">
+                    <li class="menu-item has-child" data-aos="fade-down">
+                        <a href="#" class="menu-link">
+                            Trang Sức <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Charms
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Chuỗi
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Bông Tai
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Vòng Tay
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-child" data-aos="fade-down" data-aos-delay="100">
+                        <a class="menu-link" href=" #">
+                            Quà <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Quà Sinh Nhật
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Quà Cưới
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Kỷ Niệm
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-child" data-aos="fade-down" data-aos-delay="150">
+                        <a class="menu-link" href=" #">
+                            Trang Sức Cưới <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn Cưới
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn Cưới
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn Cưới
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item no-child" data-aos="fade-down" data-aos-delay="200"><a class="menu-link"
+                            href=" #">Khuyến Mãi</a></li>
+                    <li class="menu-item no-child" data-aos="fade-down" data-aos-delay="250"><a class="menu-link"
+                            href=" #">Thành Viên</a></li>
+                    <li class="menu-item has-child" data-aos="fade-down" data-aos-delay="300">
+                        <a class="menu-link" href=" #">Dịch Vụ <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Dịch Vụ Quà Tặng
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Chăm Sóc Sản Phẩm
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item no-child" data-aos="fade-down" data-aos-delay="350"><a class="menu-link"
+                            href="#">Về Chúng Tôi</a></li>
+                    <div class="footer-social">
+                        <a href="#" class="facebook-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" class="ins-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="#" class="zalo-icon">
+                            <img src="Images/ZaloIcon.png" alt="">
+                        </a>
+                    </div>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="wrapper main">
+        <!-- Main Charm -->
+        <section class="mcharm">
+            <div class="rto-box mcharm-wrap">
+                <div class="rto-img flex flex-dr-c">
+                    <img src="Images/DichVuBanner.png" alt="">
+                    <div class="container container-full mg-auto">
+                        <div class="mcharm-container" data-aos="fade-down">
+                            <div class="mcharm-title banner-title">
+                                Dịch Vụ
+                            </div>
+                            <div class="mcharm-direction banner-direction">
+                                <!-- Home / Dịch Vụ / Chăm Sóc Sản Phẩm -->
+                                <a href="#">Home /</a>
+                                <a href="#">Dịch Vụ /</a>
+                                <a href="#">Chăm Sóc Sản Phẩm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallarey Mansory -->
+        <section class="gallarey takecare">
+            <div class="gallarey-wrap">
+                <div class="container">
+                    <!--Gallarey Mansonry  -->
+                    <div class="grid takecare-grid">
+                        <div class="grid-item grid-height3" data-aos="fade-down">
+                            <img src="Images/TakeCareOne.png" alt="">
+                        </div>
+                        <div class="grid-item grid-height7" data-aos="fade-left">
+                            <img src="Images/TakeCareTwo.png" alt="">
+                        </div>
+                        <div class="grid-item grid-height3" data-aos="fade-up">
+                            <img src="Images/TakeCareThree.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Detail  -->
+                    <div class="takecare-content">
+                        <div class="takecare-title takecare-heading playfair-title" data-aos="fade-up">
+                            Chăm Sóc Sản Phẩm
+                        </div>
+                        <div class="takecare-desc" data-aos="fade-up">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatumi.
+                        </div>
+                        <div class="takecare-desc" data-aos="fade-up" data-aos-delay="150">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatumi.
+                        </div>
+                        <div class="takecare-title playfair-title" data-aos="fade-up" data-aos-delay="200">
+                            Chúng Tôi Tự Hào Về Những Gì Chúng Tôi Làm
+                        </div>
+                        <div class="takecare-desc" data-aos="fade-up" data-aos-delay="250">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatumi.
+                        </div>
+                        <div class="takecare-img" data-aos="fade-up" data-aos-delay="300">
+                            <div class="flex flex-ai-c">
+                                <div class="img-item">
+                                    <div class="rto-box img-box">
+                                        <div class="rto-img">
+                                            <img src="Images/TakeCareFour.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="img-item">
+                                    <div class="rto-box img-box">
+                                        <div class="rto-img">
+                                            <img src="Images/TakeCareFive.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="takecare-desc" data-aos="fade-up" data-aos-delay="350">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatumi.
+                        </div>
+                        <div class="takecare-desc" data-aos="fade-up" data-aos-delay="450">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatumi.
+                        </div>
+                    </div>
+                    <!-- Recommend  -->
+                    <div class="recommend">
+                        <div class="takecare-heading recommend-heading playfair-title">Bạn Cũng Có Thể Thích</div>
+                        <div class="recommend-flex flex">
+                            <div class="recommend-column" data-aos="fade-right">
+                                <div class="rto-box recommend-box">
+                                    <div class="rto-img">
+                                        <img src="Images/DichVuQuaTang.png" alt="">
+                                        <div class="recommend-overlay">
+                                            <div class="recommend-content">
+                                                <div class="recommend-title playfair-title">
+                                                    Dịch Vụ Quà Tặng
+                                                </div>
+                                                <div class="recommend-desc">
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industry's
+                                                </div>
+                                                <div class="recommend-link">
+                                                    <a href="#">
+                                                        Đọc Thêm
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recommend-column" data-aos="fade-left">
+                                <div class="rto-box recommend-box">
+                                    <div class="rto-img">
+                                        <img src="Images/Dịch Vụ Quà Tặng2.png" alt="">
+                                        <div class="recommend-overlay">
+                                            <div class="recommend-content">
+                                                <div class="recommend-title playfair-title">
+                                                    Hướng Dẫn Mua Hàng
+                                                </div>
+                                                <div class="recommend-desc">
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industry's
+                                                </div>
+                                                <div class="recommend-link">
+                                                    <a href="#">
+                                                        Đọc Thêm
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="l-main">
+                <div class="container">
+                    <div class="footer-wrap">
+                        <div class="flex footer-flex">
+                            <div class="footer-info" data-aos="fade-down">
+                                <div class="footer-title playfair-title">
+                                    Tiệm Vàng Phong Thuỷ Thành Ý
+                                </div>
+                                <div class="footer-detail">
+                                    Địa chỉ : 539 Minh Phụng, Phường 10, Quận 11, Tp.HCM
+                                </div>
+                                <div class="footer-detail">
+                                    Sđt: 039.898.1168
+                                </div>
+                                <div class="footer-detail">
+                                    Email: thanhy539@gmail.com
+                                </div>
+                                <div class="footer-detail">
+                                    MST: 0302694756
+                                </div>
+                                <div class="footer-detail social">
+                                    <a href="#" class="facebook-icon">
+                                        <i class='bx bxl-facebook'></i>
+                                    </a>
+                                    <a href="#" class="ins-icon">
+                                        <i class='bx bxl-instagram'></i>
+                                    </a>
+                                    <a href="#" class="zalo-icon">
+                                        <img src="Images/ZaloIcon.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="footer-copy footer-detail">
+                                    Design and Developed by Mona Media
+                                </div>
+                            </div>
+                            <div class="footer-policy" data-aos="fade-down">
+                                <div class="footer-title playfair-title">
+                                    Chính Sách
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Thanh Toán</a>
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Bảo Hành</a>
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Vận Chuyển</a>
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Thay Đổi</a>
+                                </div>
+                            </div>
+                            <div class="footer-logo" data-aos="fade-down">
+                                <a href="#">
+                                    <img src="Images/FooterLogo.png" alt="" class="footer-img">
+                                </a>
+                                <img src="Images/ThongBao.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Jquery Plugins -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- ImagesLoad -->
+    <script src="App/Js/imagesLoaded/index.js"></script>
+    <!-- Mansonry JS -->
+    <script src="App/Js/Mansonry/index.js"></script>
+    <!-- SwiperJs Plugin -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Core Js -->
+    <script src="App/Js/index.js" type="module"></script>
+    <script src="App/Js/products-swiper.js"></script>
+    <script src="App/Js/mansory.js"></script>
+    <!-- AOS -->
+    <script src="App/Js/AOS/index.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

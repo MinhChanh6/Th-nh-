@@ -1,0 +1,17 @@
+.buy {
+    position: relative;
+    overflow: hidden;
+    &-box {
+        padding-top: 55%;
+    }
+    &-col9{
+        margin-right: 30px;
+    }
+    &-col3 {
+        margin-right: unset;
+    }
+    &-desc {
+        margin-bottom: 30px;
+    }
+
+}

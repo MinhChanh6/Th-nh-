@@ -1,0 +1,82 @@
+.list {
+    &-wrap {
+        padding: 100px 0;
+        position: relative;
+    }
+    &-column {
+        width: calc(100%*6/12 - 30px);
+        &:nth-of-type(1){
+            margin-right: 30px;
+        }
+    }
+    &-flex {
+        overflow-x: hidden;
+    }
+    &-item {
+        margin-bottom: 30px;
+    }
+    &-icon {
+        margin-right: 30px;
+    }
+    &-title {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 8px;
+        font-family: 'Playfair Display', serif;
+        cursor: pointer;
+        transition:  .3s linear;
+        line-height: 1.6;
+        &:hover {
+            color: $mainColor;
+
+        }
+    }
+    &-desc {
+        font-weight: 200;
+        line-height: 1.6;
+    }
+    &-decor {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@include breakpoint-down(xlarge){
+    .list-box{
+        padding-top: 121%;
+    }
+}
+
+@include breakpoint-down(medium){
+    .list-box{
+        padding-top: 70%;
+    }
+    .list-decor{
+        display: none;
+    }
+    .list-flex{
+        display: block;
+    }
+    .list-column{
+        width: 100%;
+        &:nth-of-type(1){
+            margin-right: unset;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@include breakpoint-down(small){
+    .list-wrap{
+        padding: 30px 0;
+    }
+    .list-title{
+        font-size: 18px;
+    }
+    .list-desc{
+        font-size: 13px;
+        text-align: justify;
+        letter-spacing: -.055vw;
+    }
+}
+

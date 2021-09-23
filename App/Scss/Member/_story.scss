@@ -1,0 +1,90 @@
+.story {
+    &-wrap {
+        position: relative;
+        padding: 100px 0;
+        overflow-x: hidden;
+    }
+    &-column {
+        width: calc(100%*6/12 - 30px);
+        &:nth-of-type(1){
+            margin-right: 30px;
+        }
+    }
+    &-sub {
+        color: $mainColor;
+        text-transform: uppercase;
+        line-height: 1.6;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    &-title {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    &-short {
+        margin-right: 13rem;
+        line-height: 1.5;
+    }
+    &-desc{
+        font-weight: 200;
+        line-height: 1.6;
+        &:nth-of-type(3){
+            margin-bottom: 20px;
+        }
+    }
+    &-decor {
+        position: absolute;
+        top: 20px;
+        right: 0;
+    }
+}
+
+@include breakpoint-down(xlarge){
+    .story-box {
+        padding-top: 105%;
+    }
+    .story-flex {
+        align-items: unset;
+    }
+    .story-short {
+        margin-right: 10rem;
+    }
+    .story-decor {
+        max-width: 200px;
+    }
+}
+
+@include breakpoint-down(medium){
+    .story-flex {
+        display: block;
+    }
+    .story-column {
+        width: 100%;
+        &:nth-of-type(1){
+            margin-right: unset;
+            margin-bottom: 30px;
+        }
+    }
+    .story-box {
+        padding-top: 70%;
+    }
+    .story-decor {
+        display: none;
+    }
+    .story-wrap {
+        padding: 50px 0;
+    }
+}
+
+@include breakpoint-down(small) {
+    .story-desc {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .story-short {
+        margin-right: unset;
+    }
+}

@@ -1,0 +1,95 @@
+.recommend {
+
+    &-column {
+        width: calc(100%*6/12);
+
+        &:nth-of-type(1){
+            margin-right: 30px;
+        }
+    }
+    &-box {
+        padding-top: 112%;
+    }
+    &-overlay{ 
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+        cursor: pointer;
+    }
+    &-content {
+        bottom: 0;
+        position: absolute;
+        color: $whiteColor;
+        padding: 0 0 30px 30px;
+    }
+    &-title{
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+    &-desc{
+        font-weight: 200;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+    &-link {
+        position: relative;
+
+        &::before{
+            position: absolute;
+            content:"";
+            width: 30px;
+            background-color: $whiteColor;
+            height: 1px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        > a {
+            margin-left: 35px;
+            font-weight: normal;
+            line-height: 1.4;
+            transition: all .3s liner;
+
+            &:hover {
+                color: $mainColor;
+            }
+        }
+    }
+}
+.recommend-link a:hover .recommend-link::before {
+    background-color: $mainColor;
+}
+.recommend-box:hover .recommend-overlay{
+    opacity: 1;
+}
+
+@include breakpoint-down(small) {
+    .recommend-flex {
+        display: block;
+    }
+    .recommend-column {
+        width: 100%;
+        margin-right: unset;
+        margin-bottom: 20px;
+    }
+    .recommend-overlay {
+        opacity: 1;
+        background: rgba(0,0,0,0.2);
+    }
+    .recommend-desc{
+        font-size: 14px;
+    }
+    .recommend-content{
+        padding: 0 0 15px 15px;
+    }
+}

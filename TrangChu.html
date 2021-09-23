@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css link -->
+    <link rel="stylesheet" href="dist/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Font Face -->
+    <link rel="stylesheet" href="Fonts/stylesheet.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="App/Css/aos.css">
+    <title>Thành Ý - Trang Chủ</title>
+</head>
+
+<body>
+    <!-- Scroll To Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+    <div class="overlay">
+        <div class="overlay-wrap">
+            <i class='bx bx-x overlay-close'></i>
+            <div class="overlay-search">
+                <i class='bx bx-search overlay-icon'></i>
+                <input type="text" name="search" id="overlay-search" placeholder="Tìm kiếm sản phẩm...">
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header" id="navbar">
+        <div class="header-top">
+            <div class="container flex flex-ai-c flex-jc-sb">
+                <div class="header-social" data-aos="fade-down">
+                    <a href="#" class="facebook-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#" class="ins-icon">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" class="zalo-icon">
+                        <img src="Images/ZaloIcon.png" alt="">
+                    </a>
+
+                </div>
+
+                <a href="#" class="header-logo" data-aos="fade-down">
+                    <img src="Images/Logo.png" alt="">
+                </a>
+
+                <div class="header-right" data-aos="fade-down">
+                    <div class="header-search">
+                        <i class='bx bx-search search-icon2 hide-for-tabletup'></i>
+                        <i class='bx bx-search search-icon hide-for-mobile'></i>
+                        <input type="text" name="search" id="search" placeholder="Tìm kiếm sản phẩm...">
+
+                        <a href="#" class="heart-icon">
+                            <i class='bx bx-heart'></i>
+                        </a>
+                        <a href="#" class="cart-icon">
+                            <i class='bx bx-cart-alt'></i>
+                        </a>
+
+                        <button class="nav-burger hide-for-tabletup" data-aos="fade-down">
+                            <span class="rectangle rectangle--top rectangle--small"></span>
+                            <span class="rectangle rectangle--middle"></span>
+                            <span class="rectangle rectangle--bottom rectangle--small"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-overlay"></div>
+        <nav class="nav">
+            <div class="menu-wrap container">
+                <ul class="menu">
+                    <li class="menu-item has-child" data-aos="fade-down">
+                        <a href="#" class="menu-link">
+                            Trang Sức <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Charms
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Chuỗi
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Bông Tai
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Vòng Tay
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-child" data-aos="fade-down" data-aos-delay="100">
+                        <a class="menu-link" href=" #">
+                            Quà <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Quà Sinh Nhật
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Quà Cưới
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Kỷ Niệm
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item has-child" data-aos="fade-down" data-aos-delay="150">
+                        <a class="menu-link" href=" #">
+                            Trang Sức Cưới <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn Cưới
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn Cưới
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Nhẫn Cưới
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item no-child" data-aos="fade-down" data-aos-delay="200"><a class="menu-link"
+                            href=" #">Khuyến Mãi</a></li>
+                    <li class="menu-item no-child" data-aos="fade-down" data-aos-delay="250"><a class="menu-link"
+                            href=" #">Thành Viên</a></li>
+                    <li class="menu-item has-child" data-aos="fade-down" data-aos-delay="300">
+                        <a class="menu-link" href=" #">Dịch Vụ <i class='bx bxs-chevron-down'></i>
+                        </a>
+                        <ul class="menu-child">
+                            <li class="menu-child-item has-child">
+                                <a href="#" class="menu-child-link">
+                                    Dịch Vụ Quà Tặng
+                                </a>
+                            </li>
+                            <li class="menu-child-item">
+                                <a href="#" class="menu-child-link">
+                                    Chăm Sóc Sản Phẩm
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item no-child" data-aos="fade-down" data-aos-delay="350"><a class="menu-link"
+                            href="#">Về Chúng Tôi</a></li>
+                    <div class="footer-social">
+                        <a href="#" class="facebook-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="#" class="ins-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="#" class="zalo-icon">
+                            <img src="Images/ZaloIcon.png" alt="">
+                        </a>
+                    </div>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="wrapper main">
+
+        <!-- Trang Chủ  -->
+        <section class="home">
+            <div class="swiper-container home-container homeSwiper">
+                <div class="home__content">
+                    <div class="home__title large-title" data-aos="fade-down">
+                        Vẻ đẹp <br>
+                        <span> bền lâu</span>
+                    </div>
+                    <div class="home__desc" data-aos="fade-down" data-aos-delay="480">
+                        Đẳng Cấp Của Sự Tinh Tế
+                    </div>
+                    <div class="home__sub" data-aos="fade-down" data-aos-delay="480">
+                        Trang sức vàng 18
+                    </div>
+                    <div class="" data-aos="fade-down" data-aos-delay="490">
+                        <a href="#" class="button">Xem Bộ Sưu Tập</a>
+                    </div>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-banner">
+
+                    </div>
+
+                    <div class="swiper-slide swiper-banner"></div>
+
+                    <div class="swiper-slide swiper-banner"></div>
+
+                    <div class="swiper-slide swiper-banner"></div>
+
+                    <div class="swiper-slide swiper-banner"></div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Tượng Phong Thuỷ  -->
+        <section class="charm tuong">
+            <div class="l-main">
+                <div class="small-title tuong-heading">
+                    Tượng phong thủy
+                </div>
+                <div class="charm-farther" data-aos="fade-right">
+                    <div class="swiper-container relatedSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rto-box charm-banner">
+                                    <div class="rto-img flex flex-dr-c">
+                                        <img src="Images/TuongPhongThuyBanner.png" alt="">
+                                        <div class="container-full container mg-auto">
+                                            <div class="tuong-content">
+                                                <div class="medium-title tuong-title">
+                                                    Tượng trâu
+                                                    phong thủy
+                                                    <span>
+                                                        Chiêu tài lộc
+                                                    </span>
+                                                </div>
+                                                <a href="#" class="button jewelry-button">Xem Bộ Sưu Tập</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Trang Sức Cưới có reverse -->
+        <section class="charm tuong">
+            <div class="l-main">
+                <div class="small-title tuong-heading">
+                    Trang sức cưới
+                </div>
+                <div class="charm-farther" data-aos="fade-left">
+                    <div class="swiper-container relatedSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rto-box charm-banner">
+                                    <div class="rto-img flex flex-dr-c">
+                                        <img src="Images/TrangSucCuoiBanner.png" alt="">
+                                        <div class="container-full container mg-auto reverse">
+                                            <div class="content-full">
+                                                <div class="medium-title tuong-title">
+                                                    <span>
+                                                        Gold <br>
+                                                    </span>
+                                                    Jewelry Wedding
+                                                </div>
+                                                <a href="#" class="button jewelry-button">Xem Bộ Sưu Tập</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Charm PT -->
+        <section class="charm">
+            <div class="l-main">
+                <div class="small-title charm-heading">
+                    Charm PT
+                </div>
+                <div class="charm-farther" data-aos="fade-right">
+                    <div class="swiper-container relatedSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rto-box charm-banner">
+                                    <div class="rto-img flex flex-dr-c">
+                                        <img src="Images/Charms.png" alt="">
+                                        <div class="container-full container mg-auto">
+                                            <div class="charm-content">
+                                                <div class="charm-title medium-title">
+                                                    <span>
+                                                        Charm <br>
+                                                    </span>
+                                                    Bộ Sưu Tập
+                                                    2021
+                                                </div>
+                                                <a href="#" class="button jewelry-button">Xem Bộ Sưu Tập</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Chuỗi PT có reverse -->
+        <section class="charm tuong">
+            <div class="l-main">
+                <div class="small-title tuong-heading">
+                    Chuỗi PT
+                </div>
+                <div class="charm-farther" data-aos="fade-left">
+                    <div class="swiper-container relatedSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rto-box charm-banner">
+                                    <div class="rto-img flex flex-dr-c">
+                                        <img src="Images/ChuoiBanner.png" alt="">
+                                        <div class="container-full container mg-auto reverse">
+                                            <div class="content-full">
+                                                <div class="medium-title chuoi-title">
+                                                    <span>
+                                                        Gold <br>
+                                                    </span>
+                                                    Lắc Tay Nữ
+                                                </div>
+                                                <a href="#" class="button jewelry-button">Xem Bộ Sưu Tập</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Vang 750 Banner -->
+        <section class="charm">
+            <div class="charm-farther" data-aos="fade-down">
+                <div class="swiper-container relatedSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="rto-box charm-banner">
+                                <div class="rto-img flex flex-dr-c">
+                                    <img src="Images/Vang750Banner.png" alt="">
+                                    <div class="container-full container mg-auto">
+                                        <div class="charm-title medium-title">
+                                            <span>
+                                                Gold <br>
+                                            </span>
+                                            Trang Sức Vàng 750
+                                        </div>
+                                        <a href="#" class="button jewelry-button">Xem Bộ Sưu Tập</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bang Gia Vang -->
+        <section class="banggia">
+            <div class="container">
+                <div class="l-main">
+                    <div class="banggia-flex">
+                        <div class="banggia-image" data-aos="fade-up">
+                            <img src="Images/BangGiaImage.png" alt="">
+                        </div>
+                        <div class="banggia-content">
+                            <div class="banggia-title medium-title" data-aos="fade-up">
+                                Bảng Giá Vàng
+                            </div>
+                            <div class="banggia-desc" data-aos="fade-up">
+                                Giá vàng tham khảo ngày <span>05/07/2021 15:11</span>
+                            </div>
+
+                            <div class="banggia-table" data-aos="fade-up" data-aos-delay="200">
+                                <div class="table-wrap">
+                                    <img src=" Images/BangGiaVangDeCor.svg" alt="" class="banggia-decor">
+                                    <div class="table-title flex">
+                                        <div class="table-item">
+                                            Đơn vị: đồng/chỉ
+                                        </div>
+                                        <div class="table-item">
+                                            Giá Bán
+                                        </div>
+                                        <div class="table-item">
+                                            Giá Mua
+                                        </div>
+                                    </div>
+                                    <div class="table-title flex dotted-gradient">
+                                        <div class="table-type">
+                                            PNJ
+                                        </div>
+                                        <div class="table-price">
+                                            5,130,000
+                                        </div>
+                                        <div class="table-price">
+                                            5,270,000
+                                        </div>
+                                    </div>
+                                    <div class="table-title flex dotted-gradient">
+                                        <div class="table-type">
+                                            SJC
+                                        </div>
+                                        <div class="table-price">
+                                            5,130,000
+                                        </div>
+                                        <div class="table-price">
+                                            5,270,000
+                                        </div>
+                                    </div>
+                                    <div class="table-title flex dotted-gradient">
+                                        <div class="table-type">
+                                            Nhẫn PNJ (24K)
+                                        </div>
+                                        <div class="table-price">
+                                            5,130,000
+                                        </div>
+                                        <div class="table-price">
+                                            5,270,000
+                                        </div>
+                                    </div>
+                                    <div class="table-title flex dotted-gradient">
+                                        <div class="table-type">
+                                            Nữ trang 24K
+                                        </div>
+                                        <div class="table-price">
+                                            5,130,000
+                                        </div>
+                                        <div class="table-price">
+                                            5,270,000
+                                        </div>
+                                    </div>
+                                    <div class="table-title flex">
+                                        <div class="table-type">
+                                            Nữ trang 18K
+                                        </div>
+                                        <div class="table-price">
+                                            5,130,000
+                                        </div>
+                                        <div class="table-price">
+                                            5,270,000
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Related News -->
+        <section class="related">
+            <div class="l-main">
+                <div class="container">
+                    <div class="wrap__farther related__wrap">
+                        <div class="related__heading">
+                            <h3 class="related__title medium-title">Tin Tức</h3>
+                            <div class="related__button">
+                                <div class="swiper-button-prev swiper-button-related-prev swiper-button-global">
+                                    <i class='bx bx-chevron-right service-arrow'></i>
+                                </div>
+                                <div class="swiper-button-next swiper-button-related-next swiper-button-global">
+                                    <i class='bx bxs-chevron-left  service-arrow'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container  relatedSwiper">
+                            <div class="swiper-wrapper flex flex-ai-c">
+                                <div class="swiper-slide related__slide" data-aos="fade-up">
+                                    <a href="#">
+                                        <div class="related-item">
+                                            <div class="related-img rto-box">
+                                                <img src="./Images/TinTuc1.png" alt="" class="rto-img">
+                                            </div>
+                                            <h3 class="related-title">
+                                                Phân biệt vàng trắng, vàng
+                                                tây và vàng ta
+                                            </h3>
+                                            <p class="related-times">
+                                                <i class='bx bx-calendar-alt'></i>
+                                                <span>24 tháng 06, 2021</span>
+                                            </p>
+                                            <p class="related-desc">
+                                                Nếu không cẩn trọng, khách hàng có thể “tiền mất, tật mang” khi mua vàng
+                                                trang sức ở một số cơ sở kinh doanh nhỏ lẻ, trôi nổi.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide related__slide" data-aos="fade-up" data-aos-delay="200">
+                                    <a href="#">
+                                        <div class="related-item">
+                                            <div class="related-img rto-box">
+                                                <img src="./Images/TinTuc2.png" alt="" class="rto-img">
+                                            </div>
+                                            <h3 class="related-title">
+                                                Phân biệt vàng trắng, vàng
+                                                tây và vàng ta
+                                            </h3>
+                                            <p class="related-times">
+                                                <i class='bx bx-calendar-alt'></i>
+                                                <span>24 tháng 06, 2021</span>
+                                            </p>
+                                            <p class="related-desc">
+                                                Nếu không cẩn trọng, khách hàng có thể “tiền mất, tật mang” khi mua vàng
+                                                trang sức ở một số cơ sở kinh doanh nhỏ lẻ, trôi nổi.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide related__slide" data-aos="fade-up" data-aos-delay="300">
+                                    <a href="#">
+                                        <div class="related-item">
+                                            <div class="related-img rto-box">
+                                                <img src="./Images/TinTuc3.png" alt="" class="rto-img">
+                                            </div>
+                                            <h3 class="related-title">
+                                                Phân biệt vàng trắng, vàng
+                                                tây và vàng ta
+                                            </h3>
+                                            <p class="related-times">
+                                                <i class='bx bx-calendar-alt'></i>
+                                                <span>24 tháng 06, 2021</span>
+                                            </p>
+                                            <p class="related-desc">
+                                                Nếu không cẩn trọng, khách hàng có thể “tiền mất, tật mang” khi mua vàng
+                                                trang sức ở một số cơ sở kinh doanh nhỏ lẻ, trôi nổi.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="l-main">
+                <div class="container">
+                    <div class="footer-wrap">
+                        <div class="flex footer-flex">
+                            <div class="footer-info" data-aos="fade-down">
+                                <div class="footer-title playfair-title">
+                                    Tiệm Vàng Phong Thuỷ Thành Ý
+                                </div>
+                                <div class="footer-detail">
+                                    Địa chỉ : 539 Minh Phụng, Phường 10, Quận 11, Tp.HCM
+                                </div>
+                                <div class="footer-detail">
+                                    Sđt: 039.898.1168
+                                </div>
+                                <div class="footer-detail">
+                                    Email: thanhy539@gmail.com
+                                </div>
+                                <div class="footer-detail">
+                                    MST: 0302694756
+                                </div>
+                                <div class="footer-detail social">
+                                    <a href="#" class="facebook-icon">
+                                        <i class='bx bxl-facebook'></i>
+                                    </a>
+                                    <a href="#" class="ins-icon">
+                                        <i class='bx bxl-instagram'></i>
+                                    </a>
+                                    <a href="#" class="zalo-icon">
+                                        <img src="Images/ZaloIcon.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="footer-copy footer-detail">
+                                    Design and Developed by Mona Media
+                                </div>
+                            </div>
+                            <div class="footer-policy" data-aos="fade-down">
+                                <div class="footer-title playfair-title">
+                                    Chính Sách
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Thanh Toán</a>
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Bảo Hành</a>
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Vận Chuyển</a>
+                                </div>
+                                <div class="footer-detail">
+                                    <a href="#">Chính Sách Thay Đổi</a>
+                                </div>
+                            </div>
+                            <div class="footer-logo" data-aos="fade-down">
+                                <a href="#">
+                                    <img src="Images/FooterLogo.png" alt="" class="footer-img">
+                                </a>
+                                <img src="Images/ThongBao.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Jquery Plugins -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- SwiperJs Plugin -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Core Js -->
+    <script src="App/Js/index.js" type="module"></script>
+    <script src="App/Js/swiper.js"></script>
+
+    <!-- AOS -->
+    <script src="App/Js/AOS/index.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.mcharm {
+
+    &-wrap{
+        padding-top: 20%;
+    }
+    
+    &-title{
+        margin-bottom: 1.875rem;
+    }
+    
+}
+
+
+@include breakpoint-down(medium){
+    .mcharm-title{
+        margin-bottom: 1rem;
+    }
+}
+
+@include breakpoint-down(small){
+    .mcharm-title{
+        margin-bottom: .875rem;
+        
+    }
+}

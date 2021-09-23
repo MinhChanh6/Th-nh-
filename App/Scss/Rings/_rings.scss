@@ -1,0 +1,149 @@
+.rings {
+    position: relative;
+    &-decor {
+        bottom: -90px;
+        left: 0;
+        position: absolute;
+    }
+    &-wrap {
+        padding: 80px 0 120px 0;
+    }
+    &-container {
+        position: relative;
+        overflow: hidden;
+    }
+    &-flex {
+        flex-wrap: wrap;
+        width: calc(100% + 30px);
+    }
+    &-content {
+        position: relative;
+        padding: 120px 0 120px 30px;
+    }
+    &-box {
+        padding-top: 53%;
+    }
+    &-heading {
+        color: $mainColor;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        letter-spacing: .02vw;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 1.6;
+    }
+    &-title {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.6;
+    }
+    &-item{
+        background-color: $whiteColor;
+        width: calc(100%*6/12 - 30px);
+        margin: 0 30px 30px 0;
+        transition: 0.3s ease;
+    }
+    &-img {
+        transition: 0.3s linear;
+        z-index: 1;
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+}
+.rings-item:hover {
+    box-shadow: 5px 5px 40px 0px rgba($color: #000000, $alpha: 0.05);
+}
+.ringsmt{
+    margin-bottom: 40px;
+
+    &-selected{
+        margin-left: auto;
+    }
+    &-heading{
+        margin-bottom: 20px;
+    }
+    &-item{
+        position: relative;
+        background-color: #FFFFFF;
+        padding: 12px 23px 11px 20px;
+        text-align: center;
+        box-shadow: 10px 5px 30px 0px rgba($color: #000000, $alpha: 0.05);
+        transition: all 0.5s ease;
+
+        &:not(:last-child){
+            margin:0 20px 0 0;
+        }
+
+        &::before{
+            content: '';
+            position: absolute;
+            left:0;
+            top:0;
+            width:0px;
+            height: 100%;
+            background-color: $mainColor;
+            z-index: -1;
+            transition:all 0.5s ease;
+        }
+
+        &:hover {
+            color: $whiteColor;
+            background-color: unset;
+        }
+
+        &:hover::before{
+            width: 100%;
+        }
+    }
+}
+@include breakpoint-down(xlarge) {
+    .rings-decor {
+        display: none;
+    }
+}
+@include breakpoint-down(medium){
+    .rings-content {
+        padding: 3.5rem 0 3.5rem .3rem;
+    }
+    .rings-title {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .ringsmt {
+        margin-bottom: 20px;
+
+        &-flex{
+            display: block;
+        }
+        &-content {
+            margin-bottom: 30px;
+        }
+    }
+}
+@include breakpoint-down(small) {
+    .rings-wrap {
+        padding: 40px 0;
+    }
+    .rings-flex {
+        display: block;
+        width: 100%;
+    }
+    .rings-item {
+        width: 100%;
+    }
+    .ringsmt-item {
+        font-size: 14px;
+        padding: 10px 15px 9px 12px;
+    }
+    .ringsmt-title {
+        line-height: 1.3;
+    }
+    .ringsmt-content {
+        margin-bottom: 15px;
+    }
+    .ringsmt-heading {
+        margin-bottom: 10px;
+    }
+    
+}

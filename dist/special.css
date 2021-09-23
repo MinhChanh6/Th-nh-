@@ -1,0 +1,14 @@
+.special-wrap {
+  padding-top: 120px;
+}
+
+.special-flex {
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.special-item {
+  width: calc(100%*3/12 - 30px);
+  margin-right: 30px;
+}
+/*# sourceMappingURL=special.css.map */

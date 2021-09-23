@@ -1,0 +1,49 @@
+.special {
+    &-wrap {
+        padding-top: 80px;
+    }
+    &-container{
+        position: relative;
+        overflow: hidden;
+    }
+    &-text{
+        margin-bottom: 30px;
+        width: calc(100%*5/12);
+    }
+    &-flex {
+        flex-wrap: wrap;
+        margin-right: -30px;
+    }
+    &-box {
+        margin-bottom: 15px;
+    }
+    &-item {
+        width: calc(100%*3/12 - 30px);
+        margin: 0 30px 50px 0;
+
+        * img {
+            top: 0;
+            transform: unset;
+            left: unset;
+            transition: 0.5s ease;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+    &-content {
+        position: relative;
+    }
+}
+
+@include breakpoint-down(medium) {
+    .special-item {
+        width: calc(100%*6/12 - 30px);
+    }
+}
+
+@include breakpoint-down(small) {
+    .special-text{
+        width: 100%;
+    }
+}

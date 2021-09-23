@@ -1,0 +1,73 @@
+.jewelry{
+    &-heading{
+        margin-bottom: 2.5rem;
+    }
+    &-background{
+        position: relative;
+        margin: 0 10rem;
+        background-color: #F1F2F4;
+        img {
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+
+    &-content{
+        position: absolute;
+        right: 12%;
+        top: 22%;
+        z-index: 2;
+        text-align: right;
+        max-width: 590px;
+
+        
+    }
+
+    &-title{
+        line-height: 1.4;
+        margin-bottom: 2.6875rem;
+        > span {
+            font-weight: bold;
+            color: $mainColor;
+        }
+    }
+}
+@include breakpoint-down(xlarge){
+    .jewelry-background{
+        margin: 0 15px;
+    }
+    .jewelry-title{
+        font-size: 3.815rem;
+    }
+    .jewelry-content{
+        top: 10%;
+    }
+}
+
+@include breakpoint-down(medium){
+    .jewelry-content{
+        max-width: 400px;
+    }
+    .jewelry-title{
+        font-size: 3.052rem;
+    }
+}
+
+@include breakpoint-down(small){
+    .jewelry-title{
+        font-size: 1.953rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@include breakpoint-down(iphone6-down){
+    .jewelry-title{
+        font-size: 1.563rem;
+        margin-bottom: 1rem;
+    }
+    .jewelry-button{
+        padding: .6rem .5rem .5rem .5rem;
+        font-size: .5rem;
+    }
+}

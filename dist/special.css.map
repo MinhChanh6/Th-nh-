@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,aAAM,CAAC;EACH,WAAW,EAAE,KAAK;CACrB;;AACA,AAAD,aAAM,CAAC;EACH,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,KAAK;CACtB;;AACA,AAAD,aAAM,CAAC;EACH,KAAK,EAAE,sBAAsB;EAC7B,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "../App/Scss/Rings/special.scss"
+    ],
+    "names": [],
+    "file": "special.css"
+}

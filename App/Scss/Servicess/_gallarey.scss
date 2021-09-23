@@ -1,0 +1,55 @@
+.gallarey{
+    overflow-x: hidden;
+    background-color: $mainColor;
+    &-wrap{
+        padding: 100px 0;
+    }
+}
+
+.grid {
+    
+    &-item {
+        width: calc(100%*6/12 - 30px);
+        margin-bottom: 30px;
+        > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: all 0.4s ease ;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+    &-height3 {
+        height: 335px;
+    }
+    &-height7{
+        height: 700px;
+    }
+}
+@include breakpoint-down(medium){
+    .gallarey-wrap{
+        padding: 50px 0;
+    }
+}
+@include breakpoint-down(small){
+    .grid-item{
+        width: 100%;
+    }
+    .grid-height3,
+    .grid-height7 {
+        height: auto;
+    }
+    .gallarey-wrap{
+        padding: 30px 0;
+    }
+    .takecare-grid {
+        margin-bottom: unset !important;
+    }
+    .takecare-title {
+        margin-bottom: 15px !important;
+    }
+}

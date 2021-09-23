@@ -1,0 +1,58 @@
+//*** BASE ***///
+@import "variable";
+@import "reset";
+@import "global";
+@import "mixins";
+
+
+//*** HOME ***///
+@import "Home/header";
+@import "Home/home";
+@import "Home/tuong";
+@import "Home/jewelry";
+@import "Home/charm";
+@import "Home/chuoi";
+@import "Home/vang750";
+@import "Home/banggia";
+@import "Home/related";
+@import "Home/footer";
+
+//*** CHARM ***///
+
+@import "Charm/banner";
+@import "Charm/collections";
+@import "Charm/products";
+
+//*** DETAIL ***//
+@import "Detail/detail";
+
+//*** GIFT ***//
+@import "Gift/banner";
+@import "Gift/category";
+@import "Gift/buy";
+
+//*** RINGS ***//
+@import "Rings/rings";
+@import "Rings/special";
+
+//*** MEMBER ***//
+@import "Member/story";
+
+//*** SERVICE ***//
+@import "Servicess/list";
+@import "Servicess/gallarey";
+@import "Servicess/detail";
+@import "Servicess/recommend";
+
+//*** ABOUT ***//
+@import "About/aboutone";
+@import "About/staff";
+
+//*** NEWS ***//
+@import "News/main";
+@import "News/contact";
+@import "News/detail";
+@import "News/comment";
+
+//*** CONTACT ***//
+@import "Contact/main";

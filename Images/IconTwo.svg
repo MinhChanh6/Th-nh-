@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_672" data-name="Rectangle 672" width="30" height="30" transform="translate(985 776)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="IconTwo" transform="translate(-975 -764)">
+    <rect id="Rectangle_671" data-name="Rectangle 671" width="50" height="50" transform="translate(975 764)" fill="#c0a885"/>
+    <g id="Mask_Group_66" data-name="Mask Group 66" clip-path="url(#clip-path)">
+      <g id="gift" transform="translate(985 776)">
+        <g id="Group_1199" data-name="Group 1199">
+          <g id="Group_1198" data-name="Group 1198">
+            <path id="Path_268" data-name="Path 268" d="M26.057,14.04V27.377H3.977V14.04H1.92V28.406a1.028,1.028,0,0,0,1.029,1.029H27.086a1.028,1.028,0,0,0,1.029-1.029V14.04Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_1201" data-name="Group 1201">
+          <g id="Group_1200" data-name="Group 1200">
+            <path id="Path_269" data-name="Path 269" d="M28.972,6.325H1.029A1.028,1.028,0,0,0,0,7.354v6.72A1.028,1.028,0,0,0,1.029,15.1H28.971A1.028,1.028,0,0,0,30,14.074V7.354A1.028,1.028,0,0,0,28.972,6.325Zm-1.029,6.72H2.057V8.383H27.943v4.663Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_1203" data-name="Group 1203">
+          <g id="Group_1202" data-name="Group 1202">
+            <path id="Path_270" data-name="Path 270" d="M16.012,7.094C15.942,6.827,14.245.566,9.291.566a3.909,3.909,0,0,0-.034,7.817h5.76a1.029,1.029,0,0,0,.995-1.289ZM9.257,6.326A1.815,1.815,0,0,1,7.44,4.474,1.876,1.876,0,0,1,9.291,2.623c2.257,0,3.609,2.223,4.258,3.7H9.257Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_1205" data-name="Group 1205">
+          <g id="Group_1204" data-name="Group 1204">
+            <path id="Path_271" data-name="Path 271" d="M20.743.566c-4.954,0-6.651,6.261-6.721,6.528a1.029,1.029,0,0,0,.995,1.289h5.76A3.909,3.909,0,0,0,20.743.566Zm.034,5.76h-4.3c.645-1.479,1.992-3.7,4.263-3.7a1.876,1.876,0,0,1,1.851,1.851A1.815,1.815,0,0,1,20.777,6.326Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_1207" data-name="Group 1207">
+          <g id="Group_1206" data-name="Group 1206">
+            <rect id="Rectangle_673" data-name="Rectangle 673" width="2.057" height="21.051" transform="translate(13.989 7.354)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
